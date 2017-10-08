@@ -1,4 +1,4 @@
-// Initializes the `contact` service on path `/contacts`
+  // Initializes the `contact` service on path `/contacts`
 const createService = require('feathers-mongoose');
 const createModel = require('../../models/contact.model');
 const hooks = require('./contact.hooks');
